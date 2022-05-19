@@ -82,3 +82,25 @@ As part of this assignment, we will need to see evidence that you have verified 
 functionality of your solution.
 
 We have already set up a composer.json file along with PHPUnit.
+
+## How to Run the Code
+
+To run this project, you need to have the following installed
+
+- PHP 8^
+- Composer to install dependencies
+
+### Steps in running the Project
+
+- Open the code in your chosen IDE
+
+- run `composer install` (to install dependencies)
+
+- To run phpcs
+
+    ``(env)$  php vendor/bin/phpcs --standard=PSR2 ./app``
+
+- To run PHPUnitTest
+`  php vendor/bin/phpunit --coverage-text --colors=always
+`
+
